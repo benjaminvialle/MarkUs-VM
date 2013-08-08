@@ -45,6 +45,7 @@ Vagrant::Config.run do |config|
       chef.roles_path = "roles"
       chef.data_bags_path = "data_bags"
       chef.add_recipe "htop"
+      chef.add_recipe "vim"
   # config.vm.provision :chef_solo do |chef|
   #   chef.cookbooks_path = "../my-recipes/cookbooks"
   #   chef.roles_path = "../my-recipes/roles"
