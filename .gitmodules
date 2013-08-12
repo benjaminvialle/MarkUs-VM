@@ -16,3 +16,6 @@
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
 	url = https://github.com/opscode-cookbooks/openssl
+[submodule "cookbooks/users"]
+	path = cookbooks/users
+	url = git@github.com:benjaminvialle/MarkUs-cookbook-users.git
