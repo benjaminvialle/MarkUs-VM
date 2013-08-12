@@ -19,3 +19,6 @@
 [submodule "cookbooks/users"]
 	path = cookbooks/users
 	url = git@github.com:benjaminvialle/MarkUs-cookbook-users.git
+[submodule "cookbooks/bash"]
+	path = cookbooks/bash
+	url = git@github.com:benjaminvialle/MarkUs-cookbook-bash.git
