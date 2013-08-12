@@ -56,6 +56,7 @@ Vagrant::Config.run do |config|
       chef.add_recipe "users::markus"
       chef.add_recipe "bash"
       chef.add_recipe "openssh::default"
+      chef.add_recipe "subversion::source"
   # config.vm.provision :chef_solo do |chef|
   #   chef.cookbooks_path = "../my-recipes/cookbooks"
   #   chef.roles_path = "../my-recipes/roles"
