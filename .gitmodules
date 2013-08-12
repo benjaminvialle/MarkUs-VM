@@ -7,3 +7,9 @@
 [submodule "cookbooks/ruby_build"]
 	path = cookbooks/ruby_build
 	url = https://github.com/fnichol/chef-ruby_build
+[submodule "cookbooks/subversion"]
+	path = cookbooks/subversion
+	url = git@github.com:benjaminvialle/MarkUs-cookbook-suversion.git
+[submodule "cookbooks/postgresql"]
+	path = cookbooks/postgresql
+	url = git@github.com:benjaminvialle/MarkUs-cookbook-postgresql.git
