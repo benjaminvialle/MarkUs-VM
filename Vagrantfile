@@ -51,6 +51,8 @@ Vagrant::Config.run do |config|
       chef.add_recipe "postgresql::client"
       chef.add_recipe "postgresql::server_debian"
       chef.add_recipe "users::root"
+      chef.add_recipe "users::vagrant"
+      chef.add_recipe "bash"
   # config.vm.provision :chef_solo do |chef|
   #   chef.cookbooks_path = "../my-recipes/cookbooks"
   #   chef.roles_path = "../my-recipes/roles"
