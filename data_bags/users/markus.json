@@ -1,0 +1,9 @@
+{
+  "groups": "markus",
+  "comment": "MarkUs user",
+  "ssh_keys": "",
+  "id": "markus",
+  "uid": 2001,
+  "shell": "/bin/bash",
+  "password": "$6$lxbZptl1M6RGKcQ$2RIETeJD6q/6ENSRkcCIqLfbz74gSy.pIzKQhWi6946mqIpFsS8MBxvL.NEuGOqqSOmKgND/l4LyzF4NGvs5d0"
+}

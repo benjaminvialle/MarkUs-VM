@@ -22,3 +22,9 @@
 [submodule "cookbooks/bash"]
 	path = cookbooks/bash
 	url = git@github.com:benjaminvialle/MarkUs-cookbook-bash.git
+[submodule "cookbooks/openssh"]
+	path = cookbooks/openssh
+	url = git@github.com:benjaminvialle/openssh.git
+[submodule "cookbooks/chef-solo-search"]
+	path = cookbooks/chef-solo-search
+	url = https://github.com/edelight/chef-solo-search.git

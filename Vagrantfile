@@ -44,6 +44,7 @@ Vagrant::Config.run do |config|
       chef.cookbooks_path = "cookbooks"
       chef.roles_path = "roles"
       chef.data_bags_path = "data_bags"
+      chef.add_recipe "chef-solo-search"
       chef.add_recipe "htop"
       chef.add_recipe "vim"
       chef.add_recipe "ruby_build"
@@ -52,7 +53,9 @@ Vagrant::Config.run do |config|
       chef.add_recipe "postgresql::server_debian"
       chef.add_recipe "users::root"
       chef.add_recipe "users::vagrant"
+      chef.add_recipe "users::markus"
       chef.add_recipe "bash"
+      chef.add_recipe "openssh::default"
   # config.vm.provision :chef_solo do |chef|
   #   chef.cookbooks_path = "../my-recipes/cookbooks"
   #   chef.roles_path = "../my-recipes/roles"
