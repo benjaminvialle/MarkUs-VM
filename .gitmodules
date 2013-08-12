@@ -13,3 +13,6 @@
 [submodule "cookbooks/postgresql"]
 	path = cookbooks/postgresql
 	url = git@github.com:benjaminvialle/MarkUs-cookbook-postgresql.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl
