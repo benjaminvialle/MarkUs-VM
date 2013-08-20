@@ -28,3 +28,6 @@
 [submodule "cookbooks/chef-solo-search"]
 	path = cookbooks/chef-solo-search
 	url = https://github.com/edelight/chef-solo-search.git
+[submodule "cookbooks/markus"]
+	path = cookbooks/markus
+	url = git@github.com:benjaminvialle/MarkUs-cookbook-markus.git
