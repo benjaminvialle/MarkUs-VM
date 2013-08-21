@@ -48,8 +48,10 @@ Vagrant::Config.run do |config|
       chef.add_recipe "htop"
       chef.add_recipe "vim"
       chef.add_recipe "ruby_build"
+      chef.add_recipe "database::postgresql"
       chef.add_recipe "postgresql::default"
       chef.add_recipe "postgresql::client"
+      chef.add_recipe "postgresql::server"
       chef.add_recipe "postgresql::server_debian"
       chef.add_recipe "users::root"
       chef.add_recipe "users::vagrant"
@@ -58,6 +60,7 @@ Vagrant::Config.run do |config|
       chef.add_recipe "openssh::default"
       chef.add_recipe "subversion::source"
       chef.add_recipe "markus::production"
+      chef.json = { :postgresql => { :password => { :postgres => "vagrant" }}}
   # config.vm.provision :chef_solo do |chef|
   #   chef.cookbooks_path = "../my-recipes/cookbooks"
   #   chef.roles_path = "../my-recipes/roles"

@@ -31,3 +31,9 @@
 [submodule "cookbooks/markus"]
 	path = cookbooks/markus
 	url = git@github.com:benjaminvialle/MarkUs-cookbook-markus.git
+[submodule "cookbooks/database"]
+	path = cookbooks/database
+	url = https://github.com/opscode-cookbooks/database.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
