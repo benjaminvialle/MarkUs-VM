@@ -37,3 +37,12 @@
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/nginx"]
+	path = cookbooks/nginx
+	url = git@github.com:benjaminvialle/nginx.git
+[submodule "cookbooks/ohai"]
+	path = cookbooks/ohai
+	url = https://github.com/opscode-cookbooks/ohai
+[submodule "cookbooks/unicorn"]
+	path = cookbooks/unicorn
+	url = https://github.com/opscode-cookbooks/unicorn
