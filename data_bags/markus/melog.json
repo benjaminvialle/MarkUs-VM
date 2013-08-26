@@ -1,0 +1,16 @@
+{
+  "id": "melog",
+  "instance": "markus-melog",
+  "title": "MELOG : Méthodes Logicielles",
+  "domain": "markus-melog",
+  "database":"markus-melog_production",
+  "database_user": "markus-melog",
+  "database_password": "markus-melog",
+  "markus_version": "master",
+  "pdf_support": true,
+  "lang": "fr",
+  "admin": [
+        { "firstname":"Morgan", "lastname":"Magnin", "username":"mmagnin"},
+        { "firstname":"EAT", "lastname":"TICE", "username":"eatice"}
+           ]
+}
