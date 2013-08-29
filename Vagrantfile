@@ -62,6 +62,7 @@ Vagrant::Config.run do |config|
       chef.add_recipe "openssh::default"
       chef.add_recipe "subversion::source"
       chef.add_recipe "markus::production"
+      chef.add_recipe "markus::ldap"
       chef.json = { :postgresql => { :password => { :postgres => "vagrant" }}}
   # config.vm.provision :chef_solo do |chef|
   #   chef.cookbooks_path = "../my-recipes/cookbooks"
