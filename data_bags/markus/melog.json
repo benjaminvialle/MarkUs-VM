@@ -2,7 +2,7 @@
   "id": "melog",
   "instance": "markus-melog",
   "title": "MELOG : Méthodes Logicielles",
-  "domain": "markus-melog",
+  "domain": "markus-melog.ser-info-02.ec-nantes.fr",
   "database":"markus-melog_production",
   "database_user": "markus",
   "database_password": "markus",
