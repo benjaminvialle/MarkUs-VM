@@ -1,7 +1,7 @@
 {
   "id": "algpr",
   "instance": "markus-algpr",
-  "title": "ALPGR : Algorithmique et programation",
+  "title": "ALPGR : Algorithmique et Programmation",
   "domain": "markus-algpr.ser-info-02.ec-nantes.fr",
   "database":"markus-algpr_production",
   "database_user": "markus",
