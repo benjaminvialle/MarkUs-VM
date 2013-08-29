@@ -8,6 +8,7 @@
   "database_password": "markus",
   "markus_version": "master",
   "pdf_support": true,
+  "time_zone": "Paris",
   "lang": "fr",
   "admin": [
         { "firstname":"EAT", "lastname":"TICE", "username":"eatice" }
