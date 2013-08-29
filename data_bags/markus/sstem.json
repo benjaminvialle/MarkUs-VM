@@ -1,0 +1,15 @@
+{
+  "id": "sstem",
+  "instance": "markus-sstem",
+  "title": "SSTEM : Système d'Information",
+  "domain": "markus-sstem",
+  "database":"markus-sstem_production",
+  "database_user": "markus",
+  "database_password": "markus",
+  "markus_version": "master",
+  "pdf_support": true,
+  "lang": "fr",
+  "admin": [
+        { "firstname":"EAT", "lastname":"TICE", "username":"eatice" }
+           ]
+}
