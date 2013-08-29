@@ -2,7 +2,7 @@
   "id": "sstem",
   "instance": "markus-sstem",
   "title": "SSTEM : Système d'Information",
-  "domain": "markus-sstem",
+  "domain": "markus-sstem.ser-info-02.ec-nantes.fr",
   "database":"markus-sstem_production",
   "database_user": "markus",
   "database_password": "markus",
