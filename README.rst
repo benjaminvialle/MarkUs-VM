@@ -42,33 +42,46 @@ Vagrant
 3. Install Vagrant `gem install vagrant` or `sudo gem install vagrant`
    if ruby is installed system-wide.
 
-4. Rename Vagrantfile.development or Vagrantfile.production to Vagrantfile
-   (according to the mode you want to use)
+4. Create a symbolic link called Vagrant file and pointing to
+   Vagrantfile.development or Vagrantfile.production to Vagrantfile (according
+   to the mode you want to use)
 
 Development
 --------------------------------------------------------------------------------
 
-5. Ensure you have properly forked MarkUs (on Github) repository and clone your
-   MarkUs repository to ../Markus (you can modify the path to your Markus local
-   repository in Vagrantfile (see the `config.vm.share_folder` option in
-   Vagrantfile).
+5. Create an account on Github
 
-6. Start the build of your virtual machine using `vagrant up` command in the
+6. Ensure you have properly forked MarkUs (on Github) repository and clone your
+   MarkUs repository to ../Markus on your computer (you can modify the path to
+   your Markus local repository in Vagrantfile (see the
+   `config.vm.share_folder` option in Vagrantfile).
+
+7. Start the build of your virtual machine using `vagrant up` command in the
    directory where the Vagrantfile is. The first time you run the `vagrant up`
    command, it can take a long time (your virtual machine will compile both
    subversion and ruby)
 
-7. Once your virtual machine is up, you can access it using `vagrant ssh`
+8. Once your virtual machine is up, you can access it using `vagrant ssh`
    command. **Note: development must be done with markus user, not with vagrant
    user.** You can log in with markus user by doing `sudo su - markus` once
    logged in with the vagrant user.
- 
-8. Please note that you will edit MarkUs source code on "your" computer, in the
+
+9. Follow instructions on MarkUs' wiki to configure database access in
+   config/database.yml file. You can access Postgresql database using user
+   'markus' and password 'markus'. 
+
+10. Run `bundle exec rake db:create` to create 'markus_development' database,
+   then `bundle exec rake db:schema:load` to load database schema and finally
+   `bundle exec rake db:seed` to populate database with faked datas. **Note:
+   these commands must be run from your MarkUs git repository, from the VM**
+
+11. Please note that you will edit MarkUs source code on "your" computer, in the
    ../Markus directory and you will start the rails server on the virtual
    machine (using `bundle exec rails server`). Please refer to MarkUs
    documentation for more infos.
 
-9. You can stop the virtual machine by running `vagrant halt`.
+12. You can stop the virtual machine by running `vagrant halt` from your host
+    machine.
 
 Production
 --------------------------------------------------------------------------------
