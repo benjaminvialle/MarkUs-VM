@@ -71,14 +71,14 @@ Development
    'markus' and password 'markus'. 
 
 10. Run `bundle exec rake db:create` to create 'markus_development' database,
-   then `bundle exec rake db:schema:load` to load database schema and finally
-   `bundle exec rake db:seed` to populate database with faked datas. **Note:
-   these commands must be run from your MarkUs git repository, from the VM**
+    then `bundle exec rake db:schema:load` to load database schema and finally
+    `bundle exec rake db:seed` to populate database with faked datas. **Note:
+    these commands must be run from your MarkUs git repository, from the VM**
 
 11. Please note that you will edit MarkUs source code on "your" computer, in the
-   ../Markus directory and you will start the rails server on the virtual
-   machine (using `bundle exec rails server`). Please refer to MarkUs
-   documentation for more infos.
+    ../Markus directory and you will start the rails server on the virtual
+    machine (using `bundle exec rails server`). Please refer to MarkUs
+    documentation for more infos.
 
 12. You can stop the virtual machine by running `vagrant halt` from your host
     machine.
