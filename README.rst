@@ -44,7 +44,9 @@ Vagrant
 
 4. Create an account on Github and configure a SSH key
 
-5. Clone the MarkUs-VM repository and update submodules
+5. Clone the MarkUs-VM repository and update submodules with `git clone
+   https://github.com/benjaminvialle/MarkUs-VM.git` and `git submodule update
+   --init`
 
 6. Create a symbolic link called Vagrant file and pointing to
    Vagrantfile.development or Vagrantfile.production to Vagrantfile (according
