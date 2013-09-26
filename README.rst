@@ -42,16 +42,16 @@ Vagrant
 3. Install Vagrant `gem install vagrant` or `sudo gem install vagrant`
    if ruby is installed system-wide.
 
-4. Clone the MarkUs-VM repository and update submodules
+4. Create an account on Github and configure a SSH key
 
-5. Create a symbolic link called Vagrant file and pointing to
+5. Clone the MarkUs-VM repository and update submodules
+
+6. Create a symbolic link called Vagrant file and pointing to
    Vagrantfile.development or Vagrantfile.production to Vagrantfile (according
    to the mode you want to use)
 
 Development
 --------------------------------------------------------------------------------
-
-6. Create an account on Github
 
 7. Ensure you have properly forked MarkUs (on Github) repository and clone your
    MarkUs repository to ../Markus on your computer (you can modify the path to
