@@ -39,8 +39,7 @@ Vagrant
 
 2. Install ruby and ensure you have rubygems installed too
 
-3. Install Vagrant `gem install vagrant` or `sudo gem install vagrant`
-   if ruby is installed system-wide.
+3. Install Vagrant: http://www.vagrantup.com/downloads.html
 
 4. Create an account on Github and configure a SSH key
 
