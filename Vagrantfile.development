@@ -7,16 +7,16 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  # Use vagrant-wheezy32 if you want to rebuild entirely ruby, svn
-  # Use markus-wheezy32 if you want a ready-to-use virtual machine
-  # If you don't know exactly what you're doing, prefer markus-wheezy32
-  config.vm.box = "vagrant-wheezy32"
+  # Use vagrant-wheezy64 if you want to rebuild entirely ruby, svn
+  # Use markus-wheezy64 if you want a ready-to-use virtual machine
+  # If you don't know exactly what you're doing, prefer markus-wheezy64
+  config.vm.box = "markus-wheezy64"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  # Use vagrant-wheezy32 if you want to rebuild entirely ruby, svn
-  # Use markus-wheezy32 if you want a ready-to-use virtual machine
-  config.vm.box_url = "http://www.markusproject.org/download/vagrant-wheezy32.box"
+  # Use vagrant-wheezy64 if you want to rebuild entirely ruby, svn
+  # Use markus-wheezy64 if you want a ready-to-use virtual machine
+  config.vm.box_url = "http://www.markusproject.org/download/markus-wheezy64.box"
 
   # Boot with a GUI so you can see the screen. (Default is headless)
   # config.vm.boot_mode = :gui
